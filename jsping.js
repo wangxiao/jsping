@@ -31,7 +31,7 @@ function ping(ip) {
     setTimeout(function(){
         isCloseWifi = false;
         console.log('network is working, start ping...');
-    },2);
+    },16);
 
     img.src = 'http://' + ip + '/' + start;
     var timer = setTimeout(function() {
